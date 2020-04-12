@@ -1,0 +1,9 @@
+version: '3'
+services:
+  h5ai:
+    image: "tumayouzi/h5ai-docker:latest"
+    container_name: "h5ai"
+    ports:
+      - 80:80
+    volumes:
+      - ./data:/var/www
